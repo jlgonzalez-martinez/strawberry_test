@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sample-strawberry"
+version = "0.1.0"
+description = ""
+authors = ["Jose Luis <jose@circular.io>"]
+readme = "README.md"
+packages = [{include = "sample_strawberry"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2.4"
+strawberry-graphql-django = "^0.16"
+django-silk = "~5.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,21 @@
+[
+    {"model": "school.school", "pk": 1, "fields": {"name": "UC3M"}},
+    {"model": "school.school", "pk": 2, "fields": {"name": "UNIR"}},
+    {"model": "school.career", "pk": 1, "fields": {"title": "Informatic"}},
+    {"model": "school.career", "pk": 2, "fields": {"title": "Telecommunications"}},
+    {
+        "model": "school.student",
+        "pk": 1,
+        "fields": {"nia": "1001", "name": "Jose", "school": 1, "career": 2},
+    },
+    {
+        "model": "school.student",
+        "pk": 2,
+        "fields": {"nia": "1002", "name": "TEST", "school": 1, "career": 1},
+    },
+    {
+        "model": "school.student",
+        "pk": 3,
+        "fields": {"nia": "1003", "name": "Test 3", "school": 2, "career": 1},
+    },
+]
